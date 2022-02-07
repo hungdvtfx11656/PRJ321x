@@ -1,0 +1,29 @@
+/* Global setting */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: none;
+}
+dl, ol, ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.menu ul li {
+    padding: 1rem;
+    transition: 0.3s;
+}
+.menu ul li a{
+    color: #FFF;
+}
+.menu ul li:hover {
+    background-color: #0096FF;
+}
